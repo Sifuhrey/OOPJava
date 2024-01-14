@@ -97,6 +97,4 @@ class Player{
     public int maxHP(){
         return this.baseHP + this.level*this.increaseHP + this.armor.getAddHP();
     }
-
-
 }
