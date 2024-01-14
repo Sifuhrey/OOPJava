@@ -2,6 +2,8 @@ package overriding;
 
 public class HeroStrength extends Hero {
     int DEF;
+    
+    @Override
     void display(){
         System.out.println("\nHero Strength");
         System.out.println("Nama\t: "+this.name);
