@@ -6,7 +6,7 @@ public class Circle extends Shape {
 
     Circle() {
         this.bentuk = "Lingkaran";
-        System.out.print("\nMasukkan panjang " + this.bentuk + " : ");
+        System.out.print("\nMasukkan radius " + this.bentuk + " : ");
         this.radius = s.nextDouble();
 
     }
